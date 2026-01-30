@@ -29,7 +29,7 @@ const stats = [
   { value: '25+', label: 'Years of Experience' },
   { value: '35m+', label: 'Happy Customers' },
   { value: '10m+', label: 'Happy Farmers' },
-  { value: '62+', label: 'Projecta Implemented' },
+  { value: '62+', label: 'Projects Implemented' },
 ];
 
 const WhyNaturalFarmingItems = [
