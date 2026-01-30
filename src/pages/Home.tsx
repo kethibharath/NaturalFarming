@@ -292,21 +292,21 @@ const Home: React.FC = () => {
             <article className={`card-premium overflow-hidden rounded-[26px] bg-white shadow-[0_22px_45px_rgba(0,0,0,0.35)] transition-all duration-500 ${benefitsSection.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
               }`} style={{ transitionDelay: '100ms' }}>
               <div className="image-reveal flex h-[420px] w-full items-end bg-[url('/assets/home/farmer.jpg')] bg-cover bg-center p-6 justify-center">
-                <h3 className="text-lg font-semibold text-white">Farmers</h3>
+                <h3 className="text-4xl font-semibold text-white">Farmers</h3>
               </div>
             </article>
 
             <article className={`card-premium overflow-hidden rounded-[26px] bg-white shadow-[0_22px_45px_rgba(0,0,0,0.35)] transition-all duration-500 ${benefitsSection.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
               }`} style={{ transitionDelay: '200ms' }}>
               <div className="image-reveal flex h-[420px] w-full items-end bg-[url('/assets/home/women-buy.jpg')] bg-cover bg-center p-6 justify-center">
-                <h3 className="text-lg font-semibold text-white">Consumers</h3>
+                <h3 className="text-4xl font-semibold text-white">Consumers</h3>
               </div>
             </article>
 
             <article className={`card-premium overflow-hidden rounded-[26px] bg-white shadow-[0_22px_45px_rgba(0,0,0,0.35)] transition-all duration-500 ${benefitsSection.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
               }`} style={{ transitionDelay: '300ms' }}>
               <div className="image-reveal flex h-[420px] w-full items-end bg-[url('/assets/home/environment.jpg')] bg-cover bg-center p-6 justify-center">
-                <h3 className="text-lg font-semibold text-white">Environment</h3>
+                <h3 className="text-4xl font-semibold text-white">Environment</h3>
               </div>
             </article>
 
