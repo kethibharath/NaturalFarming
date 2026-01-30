@@ -375,9 +375,9 @@ const ResourcesLearning: React.FC = () => {
                             </div>
                         </div>
 
-                        <button className="bg-[#FF8A1F] hover:bg-[#e67912] text-white px-12 py-4 rounded-full font-semibold text-lg btn-premium hover:shadow-lg transition-all">
+                        {/* <button className="bg-[#FF8A1F] hover:bg-[#e67912] text-white px-12 py-4 rounded-full font-semibold text-lg btn-premium hover:shadow-lg transition-all">
                             Join Community
-                        </button>
+                        </button> */}
                     </div>
                 </div>
             </section>
