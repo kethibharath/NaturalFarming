@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaFacebook, FaXTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa6";
 import { useScrollReveal } from '../hooks/useScrollReveal';
-import JoinTheMovement from "./JoinTheMovement";
 const logo = "/assets/footer-logo.png";
 
 const Footer = () => {
@@ -18,8 +17,8 @@ const Footer = () => {
       />
 
       {/* SOFT TOP FADE */}
-      {/* <div className="absolute inset-0 bg-gradient-to-b from-white via-transparent to-black/40" /> */}
-      {/* <JoinTheMovement /> */}
+      <div className="absolute inset-0 bg-gradient-to-b from-white via-transparent" />
+      
       {/* ================= JOIN THE MOVEMENT CARD ================= */}
       <div
         ref={joinSection.ref as any}
@@ -38,7 +37,7 @@ const Footer = () => {
               ${joinSection.isVisible ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-10 scale-95'}
             `}
           >
-            <h2 className="text-[#FF8A1F] text-4xl md:text-5xl font-bold mb-6">
+            <h2 className="text-[#ff7800] text-4xl md:text-5xl font-bold mb-6">
               Join the Movement
             </h2>
 
@@ -51,7 +50,7 @@ const Footer = () => {
 
             <button
               className="
-                bg-[#FF8A1F]
+                bg-[#ff7800]
                 hover:bg-[#e67912]
                 text-white
                 px-14 py-4 md:mb-6
