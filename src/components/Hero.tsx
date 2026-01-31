@@ -64,7 +64,7 @@ const Hero: React.FC = () => {
                     <div className="absolute inset-0 z-10 flex flex-col">
 
                         {/* Logo with fade-in animation */}
-                        <div className="mx-auto w-full max-w-7xl px-4 pt-8 xl:px-12 xl:pt-10 2xl:px-20 animate-fade-in">
+                        <div className="mx-auto w-full max-w-7xl px-4 pt-8 xl:px-12 xl:pt-10 2xl:px-10 animate-fade-in">
                             <img
                                 src="/assets/logo.png"
                                 alt="Natural Farming Logo"
