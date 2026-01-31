@@ -409,7 +409,7 @@ const Home: React.FC = () => {
                     }`}
                   style={{ transitionDelay: `${index * 100}ms` }}
                 >
-                  <div className="text-4xl font-extrabold text-[#ff8a1f]">
+                  <div className="text-4xl font-extrabold text-[#ff7800]">
                     {item.value}
                   </div>
                   <div className="mt-2 text-sm opacity-90">{item.label}</div>
