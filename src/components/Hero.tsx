@@ -73,7 +73,7 @@ const Hero: React.FC = () => {
                         </div>
 
                         {/* Text content with staggered animations */}
-                        <div className="mx-auto flex w-full max-w-7xl flex-1 items-start pt-16 px-4 pt-10 xl:px-12 xl:pt-16 2xl:px-20 2xl:pt-40">
+                        <div className="mx-auto flex w-full max-w-7xl flex-1 items-start pt-16 pb-4 px-4 pt-10 xl:px-12 xl:pt-16 2xl:px-20 2xl:pt-40">
                             <div className="text-white max-w-2xl">
 
                                 <h1 className="
