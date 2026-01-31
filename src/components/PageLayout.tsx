@@ -8,9 +8,9 @@ interface PageLayoutProps {
 
 const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
     return (
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen bg-white overflow-x-hidden">
             <Header />
-            <main>{children}</main>
+            <main className="overflow-x-hidden">{children}</main>
             <Footer />
         </div>
     );
