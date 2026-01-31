@@ -176,7 +176,7 @@ const Header: React.FC = () => {
 
             <NavLink
               to="/farmer-registration"
-              className={`${baseLink} bg-[#fe7a00] text-white mobile-item-animate`}
+              className={`${baseLink} bg-[#ff7800] text-white mobile-item-animate`}
               style={{ animationDelay: '240ms' }}
               onClick={() => setOpen(false)}
             >
