@@ -127,7 +127,7 @@ const Hero: React.FC = () => {
 
                                     <button className="
                     rounded-full
-                    bg-[#fe7a00]
+                    bg-[#ff7800]
                     hover:bg-[#e56d00]
                     px-8
                     py-3.5
@@ -197,7 +197,7 @@ const Hero: React.FC = () => {
                                         Start Natural Farming
                                     </button>
 
-                                    <button className="flex-3 rounded-full bg-[#fe7a00] hover:bg-[#e56d00] px-4 py-2.5 text-sm font-semibold text-white btn-premium hover:shadow-lg">
+                                    <button className="flex-3 rounded-full bg-[#ff7800] hover:bg-[#e56d00] px-4 py-2.5 text-sm font-semibold text-white btn-premium hover:shadow-lg">
                                         Farmer Registration
                                     </button>
                                 </div>
