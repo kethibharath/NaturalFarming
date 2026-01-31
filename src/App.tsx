@@ -10,8 +10,8 @@ import FarmerRegistration from './pages/FarmerRegistration';
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen bg-white font-sans">
-      <main>
+    <div className="min-h-screen bg-white font-sans overflow-x-hidden">
+      <main className="overflow-x-hidden">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/natural-farming" element={<NaturalFarming />} />
