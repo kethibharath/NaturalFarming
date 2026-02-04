@@ -357,7 +357,7 @@ const NewsWorkshops: React.FC = () => {
 
             {/* Contact for Event Organization */}
             <section className="py-16 px-4 bg-white">
-                <div className="max-w-4xl mx-auto text-center">
+                <div className="max-w-5xl mx-auto text-center">
                     <div className="bg-[#ebf3ee] rounded-[36px] p-12">
                         <h2 className="text-3xl font-bold text-[#0b7a3b] mb-4">
                             Want to Organize a Workshop in Your Region?
