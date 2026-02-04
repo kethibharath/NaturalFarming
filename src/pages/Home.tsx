@@ -29,7 +29,7 @@ const stats = [
   { value: '25+', label: 'Years of Experience' },
   { value: '35m+', label: 'Happy Customers' },
   { value: '10m+', label: 'Happy Farmers' },
-  { value: '62+', label: 'Projects Implemented' },
+  { value: '62+', label: 'Projecta Implemented' },
 ];
 
 const WhyNaturalFarmingItems = [
@@ -114,7 +114,7 @@ const Home: React.FC = () => {
           </p>
 
           {/* Features */}
-          <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-center">
+          <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-center">
             {/* Item 1 */}
             <div className={`flex flex-col items-center justify-center px-6 py-4 transition-all duration-500 ${whatSection.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
               }`} style={{ transitionDelay: '100ms' }}>
@@ -444,7 +444,7 @@ const Home: React.FC = () => {
                   <img
                     src="/assets/home/potrait.jpg"
                     alt="News"
-                    className="h-[420px] w-full object-cover"
+                    className="w-full object-cover object-top h-[440px] sm:h-[480px] md:h-[420px] lg:h-[440px]"
                   />
                 </div>
 
