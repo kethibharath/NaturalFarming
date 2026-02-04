@@ -266,15 +266,30 @@ const NewsWorkshops: React.FC = () => {
                         {pastWorkshops.map((workshop, index) => (
                             <div
                                 key={index}
-                                className={`card-premium overflow-hidden rounded-[26px] shadow-lg transition-all duration-500 ${pastSection.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+                                className={`group card-premium overflow-hidden rounded-[26px] shadow-lg transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl ${pastSection.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
                                     }`}
                                 style={{ transitionDelay: `${index * 100 + 200}ms` }}
                             >
-                                <div className="image-reveal overflow-hidden">
+                                {/* <div className="image-reveal overflow-hidden">
                                     <img
                                         src={workshop.image}
                                         alt={workshop.title}
                                         className="h-64 w-full object-cover"
+                                    />
+                                </div> */}
+                                <div className="relative overflow-hidden rounded-t-[26px]">
+                                    <img
+                                        src={workshop.image}
+                                        alt={workshop.title}
+                                        className="
+                                        w-full 
+                                        h-[320px] 
+                                        md:h-[280px]
+                                        object-cover 
+                                        object-top
+                                        transition-transform duration-1000
+                                        group-hover:scale-[1.05]
+                                        "
                                     />
                                 </div>
 
