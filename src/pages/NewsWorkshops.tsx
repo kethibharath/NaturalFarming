@@ -270,13 +270,6 @@ const NewsWorkshops: React.FC = () => {
                                     }`}
                                 style={{ transitionDelay: `${index * 100 + 200}ms` }}
                             >
-                                {/* <div className="image-reveal overflow-hidden">
-                                    <img
-                                        src={workshop.image}
-                                        alt={workshop.title}
-                                        className="h-64 w-full object-cover"
-                                    />
-                                </div> */}
                                 <div className="relative overflow-hidden rounded-t-[26px]">
                                     <img
                                         src={workshop.image}
