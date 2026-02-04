@@ -287,7 +287,7 @@ const NewsWorkshops: React.FC = () => {
                                         md:h-[280px]
                                         object-cover 
                                         object-top
-                                        transition-transform duration-1000
+                                        transition-transform duration-1300
                                         group-hover:scale-[1.05]
                                         "
                                     />
