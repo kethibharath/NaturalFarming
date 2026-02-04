@@ -256,12 +256,6 @@ const NaturalFarming: React.FC = () => {
                             <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
                                 Join thousands of Indian farmers who have transformed their lives and land through Natural Farming practices.
                             </p>
-                            <Link
-                                to="/farmer-registration"
-                                className="inline-block bg-[#FF8A1F] hover:bg-[#e67912] text-white px-12 py-4 rounded-full font-semibold text-lg btn-premium hover:shadow-lg transition-all"
-                            >
-                                Start Natural Farming
-                            </Link>
                         </div>
                     </div>
                 </div>
